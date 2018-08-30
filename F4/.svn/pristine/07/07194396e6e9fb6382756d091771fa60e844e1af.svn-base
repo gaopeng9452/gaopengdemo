@@ -1,0 +1,52 @@
+<?php
+namespace app\index\controller;
+use think\Controller;
+use think\Db;
+class Denglu extends Controller
+{
+    public function denglu()
+    {
+        return $this->fetch();
+    }
+    public function logon(){
+    	$a=input('post.');
+
+		if (!empty($a['username'])){
+			$arr=Db::table('users')->where('username',$a['username'])->select();
+			if ($arr) {
+				if (!empty($a['password'])) {
+					if($a['password']==$arr[0]['password']){
+						return 1;//全部正确		
+					}else{
+						return 2;//密码有误
+						
+					}
+				}else{
+					return 3;//密码为空;
+				
+				}
+				
+						
+			}else{
+				return 4;//账号有误
+			}
+			}else{
+				return 5;//账号为空
+				
+			}
+
+
+    }
+ 
+}
+// if(data==1){
+// 							alert("账号有误");
+// 						}elseif(data==2){
+// 							alert("密码有误");
+// 						}elseif(data==4){
+// 							alert("账号为空");
+// 						}elseif(data==5){
+// 							alert("密码为空");
+// 						}elseif(data==3){
+							
+// 						}

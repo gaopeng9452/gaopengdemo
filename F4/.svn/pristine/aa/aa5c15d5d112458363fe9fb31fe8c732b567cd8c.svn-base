@@ -1,0 +1,11 @@
+<?php
+namespace app\index\controller;
+use think\Controller;
+use think\Db;
+class Zhuanchangxq extends Controller
+{
+    public function zhuanchangxq()
+    {
+        return $this->fetch();
+    }
+}

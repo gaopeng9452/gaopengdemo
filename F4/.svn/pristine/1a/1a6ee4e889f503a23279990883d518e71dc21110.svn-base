@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>
+            X-admin v1.0
+        </title>
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" href="__STATIC__/admin/css/x-admin.css" media="all">
+    </head>
+    
+    <body style="background-color: #393D49">
+        <div class="x-box">
+            <div class="x-top">
+                <i class="layui-icon x-login-close">
+                    &#x1007;
+                </i>
+                <ul class="x-login-right">
+                    <li style="background-color: #F1C85F;" color="#F1C85F">
+                    </li>
+                    <li style="background-color: #EA569A;" color="#EA569A">
+                    </li>
+                    <li style="background-color: #393D49;" color="#393D49">
+                    </li>
+                </ul>
+            </div>
+            <div class="x-mid">
+                <div class="x-avtar">
+                    <img src="__STATIC__/admin/images/logo.png" alt="">
+                </div>
+                <div class="input">
+
+
+                    <form class="layui-form" action="{:url('login/dologin')}"  method="post" onsubmit="return false" name="myform">
+
+                        <div class="layui-form-item x-login-box">
+                            <label for="username" class="layui-form-label">
+                                <i class="layui-icon">&#xe612;</i>
+                            </label>
+                            <div class="layui-input-inline">
+                                <input type="text" id="username" name="username" lay-verify="username"
+                                autocomplete="off" placeholder="请输入用户名" class="layui-input">
+                            </div>
+                        </div>
+
+                        <div class="layui-form-item x-login-box">
+                            <label for="pass" class="layui-form-label">
+                                <i class="layui-icon">&#xe628;</i>
+                            </label>
+                            <div class="layui-input-inline">
+                                <input type="password" id="pass" name="pass" lay-verify="pass"
+                                autocomplete="off" placeholder="******" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item x-login-box">
+                            <label for="pass" class="layui-form-label">
+                                <i class="layui-icon">&#xe620;</i>
+                            </label>
+                            <div class="layui-input-inline">
+                                <input type="text" id="code" name="code" lay-verify="code"
+                                autocomplete="off" placeholder="请输出验证码" class="layui-input">
+                            </div>
+                            <img src="__STATIC__/code.php" alt="" onclick="this.src='__STATIC__/code.php?i='+Math.random();"();><br>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="layui-form-item" id="loginbtn">
+                            <button  class="layui-btn" lay-filter="save" lay-submit="" id="xg">
+                                登 录
+                            </button>
+                        </div>
+                    </form>
+
+
+
+                </div>
+            </div>
+        </div>
+        <p style="color:#fff;text-align: center;">Copyright © 2017.Company name All rights X-admin </p>
+        <script src="__STATIC__/admin/lib/layui/layui.js" charset="utf-8"></script>
+        <script src="__STATIC__/admin/js/jquery-1.8.3.js" charset="utf-8"></script>
+        <script>
+            layui.use(['form'],
+            function() {
+                $ = layui.jquery;
+                var form = layui.form(),
+                layer = layui.layer;
+
+                $('.x-login-right li').click(function(event) {
+                    color = $(this).attr('color');
+                    $('body').css('background-color', color);
+                });
+            });
+
+            $("#xg").click(function(){
+             var form=$("form[name='myform']");
+            function tz(){
+                window.location.href="{:url('index/index')}";
+            } 
+
+            $.ajax({
+            url:"{:url('login/dologin')}",
+            type:"post",
+            data:form.serialize(),
+            dataType:"html",
+            async:true,
+            success:function(data){
+                if(data==1){
+                    alert("账号有误");                  
+                }else if(data==2){
+                    alert("密码有误");   
+                }else if(data==3){
+                    alert('验证码有误');
+                }else if(data==4){
+                    alert('账号不能为空');
+                }else if(data==5){
+                    alert('密码不能为空');
+                }else if(data==6){
+                    alert('验证码不能为空');
+                }else if(data==7){
+                    alert('此账号已被冻结,不可登陆');
+                }else{
+                    layer.msg('登陆成功!',{icon: 6,time:2000});
+                    setTimeout(tz,2000);
+                }
+            },
+            error:function(){
+                alert("请求失败,请重试");
+            }
+        });
+    });
+                  
+
+
+        </script>
+    </body>
+
+</html>

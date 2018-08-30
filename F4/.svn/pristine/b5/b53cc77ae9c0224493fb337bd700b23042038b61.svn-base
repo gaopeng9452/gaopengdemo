@@ -1,0 +1,15 @@
+<?php
+
+namespace app\admin\controller;
+use think\Controller;
+
+class Shop extends Controller{
+
+	public function category(){
+		return view();
+	}
+	public function cate_edit(){
+		return view();
+	}
+
+}

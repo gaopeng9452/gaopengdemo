@@ -1,0 +1,50 @@
+<?php
+// +----------------------------------------------------------------------
+// | ThinkPHP [ WE CAN DO IT JUST THINK ]
+// +----------------------------------------------------------------------
+// | Copyright (c) 2006~2018 http://thinkphp.cn All rights reserved.
+// +----------------------------------------------------------------------
+// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
+// +----------------------------------------------------------------------
+// | Author: liu21st <liu21st@gmail.com>
+// +----------------------------------------------------------------------
+
+return [
+    '__pattern__' => [
+        'name' => '\w+',
+    ],
+    '[hello]'     => [
+        ':id'   => ['index/hello', ['method' => 'get'], ['id' => '\d+']],
+        ':name' => ['index/hello', ['method' => 'post']],
+    ],
+    'home'=>'index/index/index',
+    'zhuanchang'=>'index/zhuanchang/zhuanchang',
+    'shangcheng'=>'index/shangcheng/shangcheng',
+    'yishujia'=>'index/yishujia/yishujia',
+    'zhuce'=>'index/zhuce/zhuce',
+    'denglu'=>'index/denglu/denglu',
+    'zhuanchangxq'=>'index/zhuanchangxq/zhuanchangxq',
+    'yishujiaxq'=>'index/yishujiaxq/yishujiaxq',//艺术家详情
+    'shangpinxq'=>'index/shangpinxq/shangpinxq',//商品详情
+    'jiesuan'=>'index/jiesuan/jiesuan',//结算页面
+    'fukuan'=>'index/fukuan/fukuan',//付款页面
+    'gerenxinxi'=>'index/gerenxinxi/gerenxinxi',//个人信息
+    'wddingdan'=>'index/wddingdan/wddingdan',//我的订单
+    'sqshouhou'=>'index/sqshouhou/sqshouhou',//申请售后
+    'pjshaidan'=>'index/pjshaidan/pjshaidan',//评价晒单
+    'pjshaidanpj'=>'index/pjshaidanpj/pjshaidanpj',//评价晒单的评价商品
+    'shopcar'=>'index/shopcar/shopping',//购物车
+    'letter'=>'index/letter/znx',//收件
+    'write'=>'index/letter/xiexin',//写信
+     'myquestion'=>'index/myquestion/zixun',//我的咨询
+    'exitrecode'=>'index/exitrecode/lljl',//退货记录
+    'shippingaddress'=>'index/shippingaddress/shippingaddress',//收货地址
+    'favorite'=>'index/favorite/favorite',//我的收藏
+    'interest'=>'index/interest/interest',//我的关注
+    'changepassword'=>'index/changepassword/changepassword',//修改密码
+    'remainingsum'=>'index/remainingsum/remainingsum',//账户余额
+    'recharge'=>'index/recharge/recharge',//在线充值
+    'drawings'=>'index/drawings/drawings',//我要提现
+    'register'=>'index/zhuce/register',//注册执行
+    'logon'=>'index/denglu/logon',//登录执行
+];

@@ -1,0 +1,19 @@
+#picfile{
+	display: inline-block;
+	width: 100px;
+	height:100px;
+	border:1px solid red;
+	text-align: center;
+	line-height: 50px;
+	position: relative;
+	top: -100px;
+	cursor: pointer;
+	opacity: 0;
+}
+.addfile{
+	width: 100px;
+	height: 100px;
+	border-radius: 2px;
+	background: url('/static/admin/images/up.png') center no-repeat ;
+	background-size:100% 100%;  
+}

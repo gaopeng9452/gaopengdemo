@@ -1,0 +1,43 @@
+<?php
+namespace app\admin\controller;
+use think\Controller;
+use think\Db;
+use app\admin\controller\Quanxian;
+
+class Index extends Quanxian{
+
+	public function index(){
+		var_dump($_SESSION['adminuser']);
+		return view('index');
+	}
+
+	
+		
+	public function welcome(){
+		
+		$last=$_SERVER['REMOTE_ADDR'];
+		$cname=$_SERVER['SERVER_ADDR'];
+		$ip=$_SERVER['REMOTE_ADDR'];
+		$yuming=$_SERVER['SERVER_NAME'];
+		$duankou=$_SERVER['SERVER_PORT'];
+		$IIS=$_SERVER['SERVER_SIGNATURE'];
+		$FILE=substr(__FILE__,0,-11);
+		$os=PHP_OS;
+		$SystemRoot=$_SERVER['SystemRoot'];
+		$max_execution_time=get_cfg_var("max_execution_time");
+		$HTTP_ACCEPT_LANGUAGE=$_SERVER['HTTP_ACCEPT_LANGUAGE'];
+		$date=date("Y-m-d l H:i:s A");
+		$IE=strtolower($_SERVER["HTTP_USER_AGENT"]);
+		$sapi=php_sapi_name();
+		$round=round((disk_free_space(".")/(1024*1024)),2).'M';
+		$memory=(memory_get_usage()/1024)."Kb";
+		
+		$session=session_id();
+		$getenv=getenv("username");
+		
+		
+
+		return view('welcome',['last'=>$last,'cname'=>$cname,'ip'=>$ip,'yuming'=>$yuming,'duankou'=>$duankou,'IIS'=>$IIS,'FILE'=>$FILE,'os'=>$os,'SystemRoot'=>$SystemRoot,'max_execution_time'=>$max_execution_time,'HTTP_ACCEPT_LANGUAGE'=>$HTTP_ACCEPT_LANGUAGE,'date'=>$date,'IE'=>$IE,'sapi'=>$sapi,'round'=>$round,'memory'=>$memory,'session'=>$session,'getenv'=>$getenv]);
+	}
+
+}

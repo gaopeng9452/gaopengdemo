@@ -1,0 +1,105 @@
+<?php
+
+namespace app\index\controller;
+use think\Controller;
+use think\Db;
+use think\Request;
+use think\verification;
+class Zhuce extends Controller
+{
+    public function zhuce()
+    {
+        return $this->fetch();
+    }
+
+    public function register(){
+    	$a=Request::instance()->post('username');//注册用户名
+    	
+    	$list=Db::name('users')->where("username",$a)->find();
+    	// dump($list['username']);die;
+    	if(!empty($a)){
+			if ($a==$list['username']) {
+    		return 1;
+    			}else{
+    		return 0;
+    			}
+
+    		}
+    	
+    	// echo "<pre>";
+    	// var_dump($list);die();
+
+    	  	// $username=$list['0']['username'];
+    	// dump($username);
+    	// if(isset($list['1']['username'])){
+    	// 	$this->redirect('Zhuce/zhuce',array('data' => $list['1']['username']));
+    	// }else{
+    	// 	$b=db('users')->insert($a);
+    	// }    	// dump($b);
+    }
+
+    public function code(){
+    	// $code=123456;
+    	$code=rand(pow(10,($length-1)), pow(10,$length)-1);
+    	// $host = "https://feginesms.market.alicloudapi.com";
+    	// $path = "/codeNotice";
+    	// $method = "GET";
+    	// $appcode = "db97753c95cd4a7b9fe8fa50bce3f370";
+    	// $headers = array();
+    	// array_push($headers, "Authorization:APPCODE " . $appcode);
+    	// $querys = "param=\"$code\"&phone=17634008479&sign=1&skin=1";
+    	// $bodys = "";
+    	// $url = $host . $path . "?" . $querys;
+
+    	// $curl = curl_init();
+    	// curl_setopt($curl, CURLOPT_CUSTOMREQUEST, $method);
+    	// curl_setopt($curl, CURLOPT_URL, $url);
+    	// curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
+    	// curl_setopt($curl, CURLOPT_FAILONERROR, false);
+    	// curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+    	// curl_setopt($curl, CURLOPT_HEADER, false);
+    	// if (1 == strpos("$".$host, "https://"))
+    	// {
+     //    	curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+     //    	curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
+    	// }
+   		// 	var_dump(curl_exec($curl));
+    	return $code;
+   		 }
+
+
+   		public function yanzheng(){
+   			$a=Request::instance()->post('code');
+    	if(!empty($a)){
+    		
+   			if($a==$code){
+   				return 0;
+   			}else{
+   				return 1;
+   			}
+    	}
+   			
+   		}
+
+
+    
+    public function zcxy()
+    {
+        return $this->fetch();
+    }
+}
+// function upperCase()
+
+//         {
+
+//         var phone = document.getElementById('phone').value;
+
+//         if(!(/^1[34578]\d{9}$/.test(phone))){ 
+
+//             alert("手机号码有误，请重填");  
+
+//             return false; 
+
+//         } 
+
+//         }

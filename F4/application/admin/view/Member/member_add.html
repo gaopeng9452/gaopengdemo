@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>
+            X-admin v1.0
+        </title>
+        <meta name="renderer" content="webkit">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" href="__STATIC__/admin/css/x-admin.css" media="all">
+    </head>
+    
+    <body>
+        <div class="x-body">
+            <form class="layui-form" method="post" action="{:url('Member/member_search')}" onsubmit="return false" name="memberform" enctype="multipart/form-data">
+                <div class="layui-form-item">
+                    <label for="L_email" class="layui-form-label">
+                        <span class="x-red">*</span>邮箱
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="L_email" name="email" required="" lay-verify="email"
+                        autocomplete="off" class="layui-input">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">
+                        <span class="x-red">*</span>将会成为您唯一的登入名
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_username" class="layui-form-label">
+                        <span class="x-red">*</span>昵称
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="L_username" name="username" required="" lay-verify="nikename"
+                        autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_pass" class="layui-form-label">
+                        <span class="x-red">*</span>密码
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="password" id="L_pass" name="pass" required="" lay-verify="pass"
+                        autocomplete="off" class="layui-input">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">
+                        6到16个字符
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_repass" class="layui-form-label">
+                        <span class="x-red">*</span>确认密码
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="password" id="L_repass" name="repass" required="" lay-verify="repass"
+                        autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="name" class="layui-form-label">
+                        <span class="x-red">*</span>真实姓名
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="name" name="name" required="" lay-verify="name"
+                        autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="sex" class="layui-form-label">
+                        <span class="x-red">*</span>性别
+                    </label>
+                    <div class="layui-input-inline">
+                        <select name="sex" id="">
+                            <option value="m" checked="true">男</option>
+                            <option value="w" >女</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="phone" class="layui-form-label">
+                        <span class="x-red">*</span>电话
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id='phone' name='phone' required="" lay-verify="phone"
+                        autocomplete="off" class="layui-input">
+
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                      <label for="address" class="layui-form-label">
+                        <span class="x-red">*</span>地址
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id='phone' name='address' required="" lay-verify="address"
+                        autocomplete="off" class="layui-input">
+                    </div>
+                </div>
+                <div class="layui-form-item" style="height: 80px;">
+                    <label for="link" class="layui-form-label">
+                        <span class="x-red">*</span>头像
+                    </label>
+                    <div class="layui-input-inline" style="height: 120px;">
+                        <div class="addfile"></div>
+                        <input type="file" name="picfile" class="" id="picfile" required="true">
+                    </div>
+                </div>
+                <div class="layui-form-item" >
+                    <label  class="layui-form-label">缩略图
+                    </label>
+                    <img id="imgshow" width="100" src="">
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_repass" class="layui-form-label">
+                    </label>
+                    <button  class="layui-btn" lay-filter="add" lay-submit="" id="addbut">
+                        增加
+                    </button>
+                </div>
+            </form>
+        </div>
+        <script src="__STATIC__/admin/lib/layui/layui.js" charset="utf-8">
+        </script>
+        <script src="__STATIC__/admin/js/x-layui.js" charset="utf-8">
+        </script>
+        <script src="__STATIC__/admin/js/jquery.min.js" charset="utf-8"></script>
+        <script>
+            layui.use(['form','layer'], function(){
+                $ = layui.jquery;
+              var form = layui.form()
+              ,layer = layui.layer;
+            
+              //自定义验证规则
+              form.verify({
+                nikename: function(value){
+                  if(value.length < 5){
+                    return '昵称至少得5个字符啊';
+                  }
+                }
+                ,pass: [/(.+){6,12}$/, '密码必须6到12位']
+                ,repass: function(value){
+                    if($('#L_pass').val()!=$('#L_repass').val()){
+                        return '两次密码不一致';
+                    }
+                }
+              });
+
+              //监听提交
+              // form.on('submit(add)', function(data){
+              //   console.log(data);
+              //   //发异步，把数据提交给php
+              //   layer.alert("增加成功", {icon: 6},function () {
+              //       // 获得frame索引
+              //       var index = parent.layer.getFrameIndex(window.name);
+              //       //关闭当前frame
+              //       parent.layer.close(index);
+              //   });
+              //   return false;
+              // });
+              
+              
+            });
+        </script>
+        <script>
+            $("#picfile").change(function(event){
+                var formData = new FormData();
+                formData.append("file", $(this).get(0).files[0]);//get取得其中一个匹配的元素。 num表示取得第几个匹配的元素。//append 向每个匹配的元素内部追加内容,参数1(要追加到目标中的内容),参数2()
+
+                var path = $(this).val(),
+                extStart = path.lastIndexOf('.'),
+                ext = path.substring(extStart,path.length).toUpperCase();
+                //判断图片格式
+                if(ext !== '.PNG' && ext !== '.JPG' && ext !== '.JPEG' && ext !== '.GIF'){
+                    alert('上传图片格式必须为：png,jpg,jpeg,gif');
+                    resetFile();
+                    return false;
+                }
+                //获取图片大小
+                var size = this.files[0].size / 1024;
+                if(size > 10240){
+                    alert('图片大小不能超过10M');
+                    resetFile();
+                    return false;
+                }
+                $.ajax({
+                    url:"{:url('member/memberupload')}",
+                    type:'POST',
+                    data:formData,
+                    cache: false,
+                    contentType: false,    //不可缺
+                    processData: false,    //不可缺
+                    success:function(data){
+                        // alert(data);
+                        $("#imgshow").attr("src","__STATIC__/uploads/member/"+data);
+                    },
+                    error:function(){
+                        alert("图片无效");
+                    }
+                });
+            })
+
+            $("#addbut").click(function(){
+                var pic=$("#imgshow").attr('src');
+
+                //要给数据库添加的图片名字
+                picname=pic.substr(pic.lastIndexOf('/')+1);
+
+                var info=$(memberform).serialize()+"&pic="+picname;
+
+                $.ajax({
+                    url:"{:url('member/member_doadd')}",
+                    type:"post",
+                    data:info,
+                    dataType:"html",
+                    async:true,
+                    success:function(data){
+                        if(data>0){
+                            layer.alert('添加成功!',{icon: 6},function(){
+                                var index = parent.layer.getFrameIndex(window.name);
+                                parent.layer.close(index);
+                                parent.location.reload();
+                            });
+                        }
+                    },
+                    error:function(){
+                        alert("请求失败,请重试");
+                    }
+                });
+            });
+        </script>
+        <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?b393d153aeb26b46e9431fabaf0f6190";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+        </script>
+    </body>
+
+</html>

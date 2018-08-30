@@ -1,0 +1,62 @@
+<?php
+
+namespace app\admin\controller;
+use think\Controller;
+
+class Member extends Controller{
+	public function member_add(){
+		return view();
+	}
+
+	public function member_del(){
+		return view();
+	}
+
+	public function member_edit(){
+		return view();
+	}
+
+	public function member_kiss(){
+		return view();
+	}
+
+	public function member_level(){
+		return view();
+	}
+
+	public function member_list(){
+		return view();
+	}
+
+	public function member_password(){
+		return view();
+	}
+
+	public function member_show(){
+		return view();
+	}
+
+	public function member_view(){
+		return view();
+	}
+
+	public function level_add(){
+		return view();
+	}
+	public function level_edit(){
+		return view();
+	}
+
+	public function kiss_add(){
+		return view();
+	}
+
+	public function kiss_edit(){
+		return view();
+	}
+	
+	public function members_password(){
+		return view();
+	}
+	
+}

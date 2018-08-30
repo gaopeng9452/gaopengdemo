@@ -1,0 +1,19 @@
+<?php
+namespace app\admin\controller;
+use think\Controller;
+session_start();
+
+class Quanxian extends Controller{
+
+	public function __construct(){
+		if(empty($_SESSION['adminuser'])){
+			$this->redirect('login/login');
+		}
+	}
+}
+
+
+
+
+
+?>

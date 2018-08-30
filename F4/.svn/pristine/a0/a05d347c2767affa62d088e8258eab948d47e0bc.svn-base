@@ -1,0 +1,11 @@
+<?php
+namespace app\index\controller;
+use think\Controller;
+use think\Db;
+class Wddingdan extends Controller
+{
+    public function wddingdan()
+    {
+        return $this->fetch();
+    }
+}

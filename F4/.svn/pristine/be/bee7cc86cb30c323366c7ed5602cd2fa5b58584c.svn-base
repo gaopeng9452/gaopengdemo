@@ -1,0 +1,40 @@
+<div class="fl slide-nav white-box">
+	<ul>
+		<li>
+			<a href="/gerenxinxi" class="db fs16">个人信息</a>
+		</li>
+		<li>
+			<a href="/wddingdan" class="db fs16">我的订单</a>
+		</li>
+		<li>
+			<a href="/pjshaidan" class="db fs16">评价晒单</a>
+		</li>
+		<li>
+			<a href="/shippingaddress" class="db fs16">收货地址</a>
+		</li>
+		<li>
+			<a href="/favorite" class="db fs16">我的收藏</a>
+		</li>
+		<li>
+			<a href="/interest" class="db fs16">我的关注</a>
+		</li>
+		<li>
+			<a href="/changepassword" class="db fs16">修改密码</a>
+		</li>
+		<li>
+			<a href="/remainingsum" class="db fs16">账户余额</a>
+		</li>
+		<li>
+			<a href="/recharge" class="db fs16">在线充值</a>
+		</li>
+		<li>
+			<a href="/exitrecode" class="db fs16">退货记录</a>
+		</li>
+		<li>
+			<a href="/myquestion" class="db fs16">我的咨询</a>
+		</li>
+		<li>
+			<a href="/letter" class="db fs16">站内信</a>
+		</li>
+	</ul>
+</div>

@@ -1,0 +1,67 @@
+<!--header star-->
+<div class="header clearfix">
+	<div class="top clearfix">
+		<div class="topctent clearfix">
+			<div class="left clearfix fl">
+				公告：您好，欢迎登录北京椿龄文化发展有限公司
+			</div>
+			<div class="right clearfix fr">
+				<div class="zuo clearfix fl">
+					<ul class="clearfix fl">
+						<li>
+							<span class="fl">欢迎</span>
+							<a href="/gerenxinxi" class="fl">瑾晨0212</a>
+							<span class="fl">进入商城</span>
+						</li>
+						<li>
+							<a href="/zhuce">
+								免费注册
+							</a>
+						</li>
+						<li>
+							<a href="settled.php">
+								艺术家入驻
+							</a>
+						</li>
+					</ul>
+				</div>						
+				<div class="shopcar-btn clearfix fl">
+					<a href="/shopcar" class="box-s">
+						购物车（0）
+					</a>
+				</div>
+				<div class="fenxiang clearfix fl">
+					<span class="fl">分享到：</span>
+					<ul class="clearfix fl">
+						<li><a href="#"><img src="__STATIC__/index/img/sina.png"/></a></li>
+						<li><a href="#"><img src="__STATIC__/index/img/qq.png"/></a></li>
+						<li><a href="#"><img src="__STATIC__/index/img/wechat.png"/></a></li>
+					</ul>
+				</div>
+			</div>					
+		</div>
+	</div>			
+	<div class="bottom clearfix">
+		<div class="logo clearfix">
+			<a href="/home"></a>
+		</div>
+		<div class="search clearfix fr ra5">
+			<input type="text" class="fl" name="" id="" value="" placeholder="请输入您要搜索的内容" />
+			<input type="button" name="" id="" value="搜索" class="fl box-s" />
+		</div>
+	</div>
+</div>
+<!--header end-->
+
+<!--navbar star-->
+<div class="navbar clearfix">
+	<div class="content clearfix">
+		<ul>
+			<li class="cur"><a href="/home">首页</a></li>
+			<li><a href="/zhuanchang">专场</a></li>
+			<li><a href="/shangcheng">商城</a></li>
+			<li><a href="/yishujia">艺术家</a></li>
+		</ul>
+	</div>
+</div>
+<!--navbar end-->

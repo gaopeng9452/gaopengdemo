@@ -1,0 +1,3902 @@
+---------------------------------------------------------------
+[ 2018-06-05T20:49:20+08:00 ] 127.0.0.1 GET /yishujia
+[ info ] www.lisi.net/yishujia [运行时间：0.060003s][吞吐率：16.67req/s] [内存消耗：1,745.21kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'yishujia',
+    2 => 'yishujia',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528197192',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Yishujia->yishujia[ E:\PHPStude\WWW\F4\application\index\controller\Yishujia.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\yishujia\yishujia.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:49:23+08:00 ] 127.0.0.1 GET /home
+[ info ] www.lisi.net/home [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：1,774.63kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/yishujia',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528197192',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\PHPStude\WWW\F4\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\Index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:49:34+08:00 ] 127.0.0.1 GET /home/admin
+[ info ] www.lisi.net/home/admin [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,599.02kb] [文件加载：43]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528197192',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\PHPStude\WWW\F4\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\Index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:49:40+08:00 ] 127.0.0.1 GET /admin/
+[ info ] www.lisi.net/admin/ [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,830.02kb] [文件加载：47]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'thinkphp_show_page_trace=0|0; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528197192',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\PHPStude\WWW\F4\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:49:40+08:00 ] 127.0.0.1 GET /admin/index/welcome.html
+[ info ] www.lisi.net/admin/index/welcome.html [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：1,759.93kb] [文件加载：46]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/admin/',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528197192',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ E:\PHPStude\WWW\F4\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/admin\view\index\welcome.html [ array (
+  0 => 'last',
+  1 => 'cname',
+  2 => 'ip',
+  3 => 'yuming',
+  4 => 'duankou',
+  5 => 'IIS',
+  6 => 'FILE',
+  7 => 'os',
+  8 => 'SystemRoot',
+  9 => 'max_execution_time',
+  10 => 'HTTP_ACCEPT_LANGUAGE',
+  11 => 'date',
+  12 => 'IE',
+  13 => 'sapi',
+  14 => 'round',
+  15 => 'memory',
+  16 => 'session',
+  17 => 'getenv',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:49:43+08:00 ] 127.0.0.1 GET /admin/question/question_list.html
+[ info ] www.lisi.net/admin/question/question_list.html [运行时间：0.059004s][吞吐率：16.95req/s] [内存消耗：1,812.87kb] [文件加载：47]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'question',
+    2 => 'question_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/admin/',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528202981',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Question->question_list[ E:\PHPStude\WWW\F4\application\admin\controller\Question.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/admin\view\question\question_list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:49:44+08:00 ] 127.0.0.1 GET /admin/question/question_del.html
+[ info ] www.lisi.net/admin/question/question_del.html [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,750.37kb] [文件加载：46]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'question',
+    2 => 'question_del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/admin/',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528202984',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Question->question_del[ E:\PHPStude\WWW\F4\application\admin\controller\Question.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/admin\view\question\question_del.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:49:48+08:00 ] 127.0.0.1 GET /admin/banner/banner_list.html
+[ info ] www.lisi.net/admin/banner/banner_list.html [运行时间：0.064004s][吞吐率：15.62req/s] [内存消耗：1,810.74kb] [文件加载：47]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'banner_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/admin/',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528202985',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Banner->banner_list[ E:\PHPStude\WWW\F4\application\admin\controller\Banner.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/admin\view\banner\banner_list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:49:48+08:00 ] 127.0.0.1 GET /admin/banner/images/banner.png
+[ info ] www.lisi.net/admin/banner/images/banner.png [运行时间：0.061003s][吞吐率：16.39req/s] [内存消耗：1,618.41kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'images',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/admin/banner/banner_list.html',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528202985',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:49:52+08:00 ] 127.0.0.1 GET /admin/comment/comment_list.html
+[ info ] www.lisi.net/admin/comment/comment_list.html [运行时间：0.058004s][吞吐率：17.24req/s] [内存消耗：1,743.84kb] [文件加载：46]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'comment_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/admin/',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528202989',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Comment->comment_list[ E:\PHPStude\WWW\F4\application\admin\controller\Comment.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/admin\view\comment\comment_list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:49:53+08:00 ] 127.0.0.1 GET /admin/comment/feedback_list.html
+[ info ] www.lisi.net/admin/comment/feedback_list.html [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：1,806.87kb] [文件加载：47]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'comment',
+    2 => 'feedback_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/admin/',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528202993',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Comment->feedback_list[ E:\PHPStude\WWW\F4\application\admin\controller\Comment.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/admin\view\comment\feedback_list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:49:55+08:00 ] 127.0.0.1 GET /admin/member/member_list.html
+[ info ] www.lisi.net/admin/member/member_list.html [运行时间：0.081005s][吞吐率：12.34req/s] [内存消耗：1,823.48kb] [文件加载：47]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'member_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/admin/',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528202994',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Member->member_list[ E:\PHPStude\WWW\F4\application\admin\controller\Member.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/admin\view\member\member_list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:49:55+08:00 ] 127.0.0.1 GET /admin/member/member_del.html
+[ info ] www.lisi.net/admin/member/member_del.html [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,756.74kb] [文件加载：46]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'member_del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/admin/',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528202996',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Member->member_del[ E:\PHPStude\WWW\F4\application\admin\controller\Member.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/admin\view\member\member_del.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:49:56+08:00 ] 127.0.0.1 GET /admin/member/member_level.html
+[ info ] www.lisi.net/admin/member/member_level.html [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：1,811.49kb] [文件加载：47]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'member_level',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/admin/',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528202996',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Member->member_level[ E:\PHPStude\WWW\F4\application\admin\controller\Member.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/admin\view\member\member_level.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:49:56+08:00 ] 127.0.0.1 GET /admin/member/member_kiss.html
+[ info ] www.lisi.net/admin/member/member_kiss.html [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,811.48kb] [文件加载：47]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'member_kiss',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/admin/',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528202997',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Member->member_kiss[ E:\PHPStude\WWW\F4\application\admin\controller\Member.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/admin\view\member\member_kiss.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:49:57+08:00 ] 127.0.0.1 GET /admin/member/member_view.html
+[ info ] www.lisi.net/admin/member/member_view.html [运行时间：0.048002s][吞吐率：20.83req/s] [内存消耗：1,750.85kb] [文件加载：46]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'member',
+    2 => 'member_view',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/admin/',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528202997',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Member->member_view[ E:\PHPStude\WWW\F4\application\admin\controller\Member.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/admin\view\member\member_view.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:49:59+08:00 ] 127.0.0.1 GET /admin/admin/admin_list.html
+[ info ] www.lisi.net/admin/admin/admin_list.html [运行时间：0.081005s][吞吐率：12.34req/s] [内存消耗：1,818.73kb] [文件加载：47]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/admin/',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528202998',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->admin_list[ E:\PHPStude\WWW\F4\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/admin\view\admin\admin_list.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:50:00+08:00 ] 127.0.0.1 GET /admin/admin/admin_role.html
+[ info ] www.lisi.net/admin/admin/admin_role.html [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,809.55kb] [文件加载：47]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin_role',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/admin/',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203000',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->admin_role[ E:\PHPStude\WWW\F4\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/admin\view\admin\admin_role.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:50:00+08:00 ] 127.0.0.1 GET /admin/admin/admin_cate.html
+[ info ] www.lisi.net/admin/admin/admin_cate.html [运行时间：0.068004s][吞吐率：14.71req/s] [内存消耗：1,813.08kb] [文件加载：47]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin_cate',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/admin/',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203001',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->admin_cate[ E:\PHPStude\WWW\F4\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/admin\view\admin\admin_cate.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:50:01+08:00 ] 127.0.0.1 GET /admin/admin/admin_rule.html
+[ info ] www.lisi.net/admin/admin/admin_rule.html [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：1,751.05kb] [文件加载：46]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin_rule',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/admin/',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203001',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->admin_rule[ E:\PHPStude\WWW\F4\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/admin\view\admin\admin_rule.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:50:09+08:00 ] 127.0.0.1 GET /
+[ info ] www.lisi.net/ [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,598.66kb] [文件加载：43]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/admin/',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\PHPStude\WWW\F4\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\Index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:50:11+08:00 ] 127.0.0.1 GET /shangcheng
+[ info ] www.lisi.net/shangcheng [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：1,769.58kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'shangcheng',
+    2 => 'shangcheng',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Shangcheng->shangcheng[ E:\PHPStude\WWW\F4\application\index\controller\Shangcheng.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\shangcheng\shangcheng.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:50:14+08:00 ] 127.0.0.1 GET /yishujia
+[ info ] www.lisi.net/yishujia [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,582.94kb] [文件加载：43]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'yishujia',
+    2 => 'yishujia',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangcheng',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Yishujia->yishujia[ E:\PHPStude\WWW\F4\application\index\controller\Yishujia.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\yishujia\yishujia.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:50:17+08:00 ] 127.0.0.1 GET /yishujiaxq
+[ info ] www.lisi.net/yishujiaxq [运行时间：0.046002s][吞吐率：21.74req/s] [内存消耗：1,748.51kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'yishujiaxq',
+    2 => 'yishujiaxq',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/yishujia',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Yishujiaxq->yishujiaxq[ E:\PHPStude\WWW\F4\application\index\controller\Yishujiaxq.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\yishujiaxq\yishujiaxq.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T20:50:20+08:00 ] 127.0.0.1 GET /pro_detail.php
+[ info ] www.lisi.net/pro_detail.php [运行时间：0.039003s][吞吐率：25.64req/s] [内存消耗：1,338.15kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pro_detail.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/yishujiaxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:02:23+08:00 ] 127.0.0.1 GET /yishujiaxq
+[ info ] www.lisi.net/yishujiaxq [运行时间：0.062004s][吞吐率：16.13req/s] [内存消耗：1,747.38kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'yishujiaxq',
+    2 => 'yishujiaxq',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/yishujia',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Yishujiaxq->yishujiaxq[ E:\PHPStude\WWW\F4\application\index\controller\Yishujiaxq.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\yishujiaxq\yishujiaxq.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:03:52+08:00 ] 127.0.0.1 GET /yishujiaxq
+[ info ] www.lisi.net/yishujiaxq [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,747.39kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'yishujiaxq',
+    2 => 'yishujiaxq',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/yishujia',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Yishujiaxq->yishujiaxq[ E:\PHPStude\WWW\F4\application\index\controller\Yishujiaxq.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\yishujiaxq\yishujiaxq.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:03:54+08:00 ] 127.0.0.1 GET /shangpinxq
+[ info ] www.lisi.net/shangpinxq [运行时间：0.056004s][吞吐率：17.86req/s] [内存消耗：1,740.93kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'shangpinxq',
+    2 => 'shangpinxq',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/yishujiaxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Shangpinxq->shangpinxq[ E:\PHPStude\WWW\F4\application\index\controller\Shangpinxq.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\shangpinxq\shangpinxq.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:03:54+08:00 ] 127.0.0.1 GET /css/base.css
+[ info ] www.lisi.net/css/base.css [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：1,339.76kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'base.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:03:54+08:00 ] 127.0.0.1 GET /css/page.css
+[ info ] www.lisi.net/css/page.css [运行时间：0.077005s][吞吐率：12.99req/s] [内存消耗：1,339.76kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'page.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:03:55+08:00 ] 127.0.0.1 GET /css/common.css
+[ info ] www.lisi.net/css/common.css [运行时间：0.104006s][吞吐率：9.61req/s] [内存消耗：1,339.77kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'common.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:03:55+08:00 ] 127.0.0.1 GET /js/other.js
+[ info ] www.lisi.net/js/other.js [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：1,339.68kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'other.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:03:55+08:00 ] 127.0.0.1 GET /js/jquery-1.8.3.min.js
+[ info ] www.lisi.net/js/jquery-1.8.3.min.js [运行时间：0.115007s][吞吐率：8.70req/s] [内存消耗：1,339.71kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'jquery-1.8.3.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:03:55+08:00 ] 127.0.0.1 GET /js/common.js
+[ info ] www.lisi.net/js/common.js [运行时间：0.096006s][吞吐率：10.42req/s] [内存消耗：1,339.75kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'common.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:03:55+08:00 ] 127.0.0.1 GET /js/jquery.SuperSlide.2.1.js
+[ info ] www.lisi.net/js/jquery.SuperSlide.2.1.js [运行时间：0.116007s][吞吐率：8.62req/s] [内存消耗：1,339.73kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'jquery.SuperSlide.2.1.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:03:55+08:00 ] 127.0.0.1 GET /js/common.js
+[ info ] www.lisi.net/js/common.js [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,339.75kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'common.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:03:55+08:00 ] 127.0.0.1 GET /upload/2.jpg
+[ info ] www.lisi.net/upload/2.jpg [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,339.66kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => '2.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:03:55+08:00 ] 127.0.0.1 GET /upload/14.jpg
+[ info ] www.lisi.net/upload/14.jpg [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,339.63kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => '14.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:03:55+08:00 ] 127.0.0.1 GET /upload/zuopin.jpg
+[ info ] www.lisi.net/upload/zuopin.jpg [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：1,339.69kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'zuopin.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:03:55+08:00 ] 127.0.0.1 GET /upload/14.jpg
+[ info ] www.lisi.net/upload/14.jpg [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,339.63kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => '14.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:03:55+08:00 ] 127.0.0.1 GET /upload/2.jpg
+[ info ] www.lisi.net/upload/2.jpg [运行时间：0.055003s][吞吐率：18.18req/s] [内存消耗：1,339.66kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => '2.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:03:55+08:00 ] 127.0.0.1 GET /js/other.js
+[ info ] www.lisi.net/js/other.js [运行时间：0.063003s][吞吐率：15.87req/s] [内存消耗：1,339.68kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'other.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:03:55+08:00 ] 127.0.0.1 GET /upload/zuopin.jpg
+[ info ] www.lisi.net/upload/zuopin.jpg [运行时间：0.096006s][吞吐率：10.42req/s] [内存消耗：1,339.69kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'zuopin.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:07:26+08:00 ] 127.0.0.1 GET /shangpinxq
+[ info ] www.lisi.net/shangpinxq [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：1,742.09kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'shangpinxq',
+    2 => 'shangpinxq',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/yishujiaxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Shangpinxq->shangpinxq[ E:\PHPStude\WWW\F4\application\index\controller\Shangpinxq.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\shangpinxq\shangpinxq.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:07:26+08:00 ] 127.0.0.1 GET /js/jquery-1.8.3.min.js
+[ info ] www.lisi.net/js/jquery-1.8.3.min.js [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,339.98kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'jquery-1.8.3.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:07:26+08:00 ] 127.0.0.1 GET /js/jquery.SuperSlide.2.1.js
+[ info ] www.lisi.net/js/jquery.SuperSlide.2.1.js [运行时间：0.066003s][吞吐率：15.15req/s] [内存消耗：1,340.02kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'jquery.SuperSlide.2.1.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:07:26+08:00 ] 127.0.0.1 GET /js/common.js
+[ info ] www.lisi.net/js/common.js [运行时间：0.074004s][吞吐率：13.51req/s] [内存消耗：1,339.90kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'common.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:07:26+08:00 ] 127.0.0.1 GET /js/other.js
+[ info ] www.lisi.net/js/other.js [运行时间：0.089005s][吞吐率：11.24req/s] [内存消耗：1,339.85kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'other.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:07:26+08:00 ] 127.0.0.1 GET /upload/14.jpg
+[ info ] www.lisi.net/upload/14.jpg [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：1,339.93kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => '14.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:07:26+08:00 ] 127.0.0.1 GET /upload/2.jpg
+[ info ] www.lisi.net/upload/2.jpg [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：1,339.87kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => '2.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:07:26+08:00 ] 127.0.0.1 GET /upload/zuopin.jpg
+[ info ] www.lisi.net/upload/zuopin.jpg [运行时间：0.083005s][吞吐率：12.05req/s] [内存消耗：1,339.69kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => 'zuopin.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:07:26+08:00 ] 127.0.0.1 GET /static/index/img/sale_bg.png
+[ info ] www.lisi.net/static/index/img/sale_bg.png [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：1,339.80kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/static/index/css/common.css',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:08:09+08:00 ] 127.0.0.1 GET /shangpinxq
+[ info ] www.lisi.net/shangpinxq [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：1,742.67kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'shangpinxq',
+    2 => 'shangpinxq',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/yishujiaxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Shangpinxq->shangpinxq[ E:\PHPStude\WWW\F4\application\index\controller\Shangpinxq.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\shangpinxq\shangpinxq.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:08:09+08:00 ] 127.0.0.1 GET /static/index/img/sale_bg.png
+[ info ] www.lisi.net/static/index/img/sale_bg.png [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,339.99kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/static/index/css/common.css',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:08:22+08:00 ] 127.0.0.1 GET /yishujia
+[ info ] www.lisi.net/yishujia [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,584.92kb] [文件加载：43]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'yishujia',
+    2 => 'yishujia',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Yishujia->yishujia[ E:\PHPStude\WWW\F4\application\index\controller\Yishujia.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\yishujia\yishujia.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:08:24+08:00 ] 127.0.0.1 GET /yishujiaxq
+[ info ] www.lisi.net/yishujiaxq [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,584.98kb] [文件加载：43]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'yishujiaxq',
+    2 => 'yishujiaxq',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/yishujia',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Yishujiaxq->yishujiaxq[ E:\PHPStude\WWW\F4\application\index\controller\Yishujiaxq.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\yishujiaxq\yishujiaxq.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:08:26+08:00 ] 127.0.0.1 GET /shangpinxq
+[ info ] www.lisi.net/shangpinxq [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：1,584.98kb] [文件加载：43]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'shangpinxq',
+    2 => 'shangpinxq',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/yishujiaxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Shangpinxq->shangpinxq[ E:\PHPStude\WWW\F4\application\index\controller\Shangpinxq.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\shangpinxq\shangpinxq.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:08:26+08:00 ] 127.0.0.1 GET /static/index/img/sale_bg.png
+[ info ] www.lisi.net/static/index/img/sale_bg.png [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,339.80kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/static/index/css/common.css',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:10:12+08:00 ] 127.0.0.1 GET /yishujia
+[ info ] www.lisi.net/yishujia [运行时间：0.049002s][吞吐率：20.41req/s] [内存消耗：1,584.92kb] [文件加载：43]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'yishujia',
+    2 => 'yishujia',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Yishujia->yishujia[ E:\PHPStude\WWW\F4\application\index\controller\Yishujia.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\yishujia\yishujia.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:10:14+08:00 ] 127.0.0.1 GET /yishujiaxq
+[ info ] www.lisi.net/yishujiaxq [运行时间：0.049002s][吞吐率：20.41req/s] [内存消耗：1,584.98kb] [文件加载：43]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'yishujiaxq',
+    2 => 'yishujiaxq',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/yishujia',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Yishujiaxq->yishujiaxq[ E:\PHPStude\WWW\F4\application\index\controller\Yishujiaxq.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\yishujiaxq\yishujiaxq.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:10:16+08:00 ] 127.0.0.1 GET /shangpinxq
+[ info ] www.lisi.net/shangpinxq [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：1,584.98kb] [文件加载：43]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'shangpinxq',
+    2 => 'shangpinxq',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/yishujiaxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Shangpinxq->shangpinxq[ E:\PHPStude\WWW\F4\application\index\controller\Shangpinxq.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\shangpinxq\shangpinxq.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:10:16+08:00 ] 127.0.0.1 GET /static/index/img/sale_bg.png
+[ info ] www.lisi.net/static/index/img/sale_bg.png [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,339.79kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/static/index/css/common.css',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:10:22+08:00 ] 127.0.0.1 GET /shangcheng
+[ info ] www.lisi.net/shangcheng [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：1,600.95kb] [文件加载：43]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'shangcheng',
+    2 => 'shangcheng',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Shangcheng->shangcheng[ E:\PHPStude\WWW\F4\application\index\controller\Shangcheng.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\shangcheng\shangcheng.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:10:28+08:00 ] 127.0.0.1 GET /pro_detail.php
+[ info ] www.lisi.net/pro_detail.php [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,340.17kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pro_detail.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangcheng',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:21:10+08:00 ] 127.0.0.1 GET /shangcheng
+[ info ] www.lisi.net/shangcheng [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,601.23kb] [文件加载：43]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'shangcheng',
+    2 => 'shangcheng',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Shangcheng->shangcheng[ E:\PHPStude\WWW\F4\application\index\controller\Shangcheng.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\shangcheng\shangcheng.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:21:15+08:00 ] 127.0.0.1 GET /pro_detail.php
+[ info ] www.lisi.net/pro_detail.php [运行时间：0.038003s][吞吐率：26.31req/s] [内存消耗：1,340.17kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'pro_detail.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangcheng',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:22:43+08:00 ] 127.0.0.1 GET /shangcheng
+[ info ] www.lisi.net/shangcheng [运行时间：0.057003s][吞吐率：17.54req/s] [内存消耗：1,771.94kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'shangcheng',
+    2 => 'shangcheng',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Shangcheng->shangcheng[ E:\PHPStude\WWW\F4\application\index\controller\Shangcheng.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\shangcheng\shangcheng.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:22:46+08:00 ] 127.0.0.1 GET /shangpinxq
+[ info ] www.lisi.net/shangpinxq [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,584.98kb] [文件加载：43]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'shangpinxq',
+    2 => 'shangpinxq',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangcheng',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Shangpinxq->shangpinxq[ E:\PHPStude\WWW\F4\application\index\controller\Shangpinxq.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\shangpinxq\shangpinxq.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:22:46+08:00 ] 127.0.0.1 GET /static/index/img/sale_bg.png
+[ info ] www.lisi.net/static/index/img/sale_bg.png [运行时间：0.046003s][吞吐率：21.74req/s] [内存消耗：1,339.79kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/static/index/css/common.css',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:22:48+08:00 ] 127.0.0.1 GET /static/index/jiesuan.html
+[ info ] www.lisi.net/static/index/jiesuan.html [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,340.16kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'jiesuan',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:29:05+08:00 ] 127.0.0.1 GET /shangpinxq
+[ info ] www.lisi.net/shangpinxq [运行时间：0.056004s][吞吐率：17.86req/s] [内存消耗：1,744.68kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'shangpinxq',
+    2 => 'shangpinxq',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangcheng',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Shangpinxq->shangpinxq[ E:\PHPStude\WWW\F4\application\index\controller\Shangpinxq.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\shangpinxq\shangpinxq.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:29:06+08:00 ] 127.0.0.1 GET /static/index/img/sale_bg.png
+[ info ] www.lisi.net/static/index/img/sale_bg.png [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,342.02kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/static/index/css/common.css',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:29:08+08:00 ] 127.0.0.1 GET /static/index/jiesuan.html
+[ info ] www.lisi.net/static/index/jiesuan.html [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：1,342.12kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'jiesuan',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:29:40+08:00 ] 127.0.0.1 GET /shangpinxq
+[ info ] www.lisi.net/shangpinxq [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：1,744.59kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'shangpinxq',
+    2 => 'shangpinxq',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangcheng',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Shangpinxq->shangpinxq[ E:\PHPStude\WWW\F4\application\index\controller\Shangpinxq.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\shangpinxq\shangpinxq.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:29:40+08:00 ] 127.0.0.1 GET /static/index/img/sale_bg.png
+[ info ] www.lisi.net/static/index/img/sale_bg.png [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,341.98kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/static/index/css/common.css',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:29:41+08:00 ] 127.0.0.1 GET /index/jiesuan.html
+[ info ] www.lisi.net/index/jiesuan.html [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,621.27kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'jiesuan',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:29:47+08:00 ] 127.0.0.1 GET /shangpinxq
+[ info ] www.lisi.net/shangpinxq [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,744.68kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'shangpinxq',
+    2 => 'shangpinxq',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangcheng',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Shangpinxq->shangpinxq[ E:\PHPStude\WWW\F4\application\index\controller\Shangpinxq.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\shangpinxq\shangpinxq.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:29:48+08:00 ] 127.0.0.1 GET /static/index/img/sale_bg.png
+[ info ] www.lisi.net/static/index/img/sale_bg.png [运行时间：0.037002s][吞吐率：27.03req/s] [内存消耗：1,341.98kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/static/index/css/common.css',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:32:20+08:00 ] 127.0.0.1 GET /shangpinxq
+[ info ] www.lisi.net/shangpinxq [运行时间：0.060003s][吞吐率：16.67req/s] [内存消耗：1,744.63kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'shangpinxq',
+    2 => 'shangpinxq',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangcheng',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Shangpinxq->shangpinxq[ E:\PHPStude\WWW\F4\application\index\controller\Shangpinxq.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\shangpinxq\shangpinxq.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:32:20+08:00 ] 127.0.0.1 GET /static/index/img/sale_bg.png
+[ info ] www.lisi.net/static/index/img/sale_bg.png [运行时间：0.066004s][吞吐率：15.15req/s] [内存消耗：1,341.98kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/static/index/css/common.css',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:32:21+08:00 ] 127.0.0.1 GET /static/index/jiesuan
+[ info ] www.lisi.net/static/index/jiesuan [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,342.16kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'jiesuan',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:32:30+08:00 ] 127.0.0.1 GET /shangpinxq
+[ info ] www.lisi.net/shangpinxq [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,744.68kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'shangpinxq',
+    2 => 'shangpinxq',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangcheng',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Shangpinxq->shangpinxq[ E:\PHPStude\WWW\F4\application\index\controller\Shangpinxq.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\shangpinxq\shangpinxq.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:32:30+08:00 ] 127.0.0.1 GET /static/index/img/sale_bg.png
+[ info ] www.lisi.net/static/index/img/sale_bg.png [运行时间：0.040003s][吞吐率：25.00req/s] [内存消耗：1,341.98kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/static/index/css/common.css',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:32:48+08:00 ] 127.0.0.1 GET /shangpinxq
+[ info ] www.lisi.net/shangpinxq [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,744.65kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'shangpinxq',
+    2 => 'shangpinxq',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangcheng',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Shangpinxq->shangpinxq[ E:\PHPStude\WWW\F4\application\index\controller\Shangpinxq.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\shangpinxq\shangpinxq.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:32:48+08:00 ] 127.0.0.1 GET /static/index/img/sale_bg.png
+[ info ] www.lisi.net/static/index/img/sale_bg.png [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：1,341.98kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/static/index/css/common.css',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:32:49+08:00 ] 127.0.0.1 GET /static/index/jiesuan.html
+[ info ] www.lisi.net/static/index/jiesuan.html [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,342.13kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'jiesuan',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:32:49+08:00 ] 127.0.0.1 GET /jiesuan
+[ info ] www.lisi.net/jiesuan [运行时间：0.048002s][吞吐率：20.83req/s] [内存消耗：1,742.59kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'jiesuan',
+    2 => 'jiesuan',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Jiesuan->jiesuan[ E:\PHPStude\WWW\F4\application\index\controller\Jiesuan.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\jiesuan\jiesuan.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:32:49+08:00 ] 127.0.0.1 GET /css/base.css
+[ info ] www.lisi.net/css/base.css [运行时间：0.063004s][吞吐率：15.87req/s] [内存消耗：1,341.73kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'base.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:32:49+08:00 ] 127.0.0.1 GET /css/common.css
+[ info ] www.lisi.net/css/common.css [运行时间：0.097006s][吞吐率：10.31req/s] [内存消耗：1,341.71kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'common.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:32:49+08:00 ] 127.0.0.1 GET /js/jquery-1.8.3.min.js
+[ info ] www.lisi.net/js/jquery-1.8.3.min.js [运行时间：0.076004s][吞吐率：13.16req/s] [内存消耗：1,341.70kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'jquery-1.8.3.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:32:49+08:00 ] 127.0.0.1 GET /js/other.js
+[ info ] www.lisi.net/js/other.js [运行时间：0.093005s][吞吐率：10.75req/s] [内存消耗：1,341.66kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'other.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:32:49+08:00 ] 127.0.0.1 GET /js/jquery.SuperSlide.2.1.js
+[ info ] www.lisi.net/js/jquery.SuperSlide.2.1.js [运行时间：0.064004s][吞吐率：15.62req/s] [内存消耗：1,341.68kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'jquery.SuperSlide.2.1.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:32:49+08:00 ] 127.0.0.1 GET /upload/2.jpg
+[ info ] www.lisi.net/upload/2.jpg [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：1,341.63kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'upload',
+    1 => '2.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:32:49+08:00 ] 127.0.0.1 GET /js/other.js
+[ info ] www.lisi.net/js/other.js [运行时间：0.039003s][吞吐率：25.64req/s] [内存消耗：1,341.66kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'other.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:33:50+08:00 ] 127.0.0.1 GET /jiesuan
+[ info ] www.lisi.net/jiesuan [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,743.04kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'jiesuan',
+    2 => 'jiesuan',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Jiesuan->jiesuan[ E:\PHPStude\WWW\F4\application\index\controller\Jiesuan.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\jiesuan\jiesuan.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:33:50+08:00 ] 127.0.0.1 GET /css/common.css
+[ info ] www.lisi.net/css/common.css [运行时间：0.041002s][吞吐率：24.39req/s] [内存消耗：1,341.95kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'common.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:33:50+08:00 ] 127.0.0.1 GET /css/base.css
+[ info ] www.lisi.net/css/base.css [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,341.94kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'base.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:34:33+08:00 ] 127.0.0.1 GET /jiesuan
+[ info ] www.lisi.net/jiesuan [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,743.04kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'jiesuan',
+    2 => 'jiesuan',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Jiesuan->jiesuan[ E:\PHPStude\WWW\F4\application\index\controller\Jiesuan.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\jiesuan\jiesuan.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:34:33+08:00 ] 127.0.0.1 GET /css/base.css
+[ info ] www.lisi.net/css/base.css [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,341.94kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'base.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:34:33+08:00 ] 127.0.0.1 GET /css/common.css
+[ info ] www.lisi.net/css/common.css [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：1,341.95kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'common.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:34:34+08:00 ] 127.0.0.1 GET /jiesuan
+[ info ] www.lisi.net/jiesuan [运行时间：0.040002s][吞吐率：25.00req/s] [内存消耗：1,587.05kb] [文件加载：43]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'jiesuan',
+    2 => 'jiesuan',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Jiesuan->jiesuan[ E:\PHPStude\WWW\F4\application\index\controller\Jiesuan.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\jiesuan\jiesuan.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:34:34+08:00 ] 127.0.0.1 GET /css/base.css
+[ info ] www.lisi.net/css/base.css [运行时间：0.041003s][吞吐率：24.39req/s] [内存消耗：1,341.94kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'base.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:34:34+08:00 ] 127.0.0.1 GET /css/common.css
+[ info ] www.lisi.net/css/common.css [运行时间：0.039002s][吞吐率：25.64req/s] [内存消耗：1,341.95kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'common.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:36:05+08:00 ] 127.0.0.1 GET /jiesuan
+[ info ] www.lisi.net/jiesuan [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,743.41kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'jiesuan',
+    2 => 'jiesuan',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Jiesuan->jiesuan[ E:\PHPStude\WWW\F4\application\index\controller\Jiesuan.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\jiesuan\jiesuan.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:36:33+08:00 ] 127.0.0.1 GET /jiesuan
+[ info ] www.lisi.net/jiesuan [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：1,587.08kb] [文件加载：43]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'jiesuan',
+    2 => 'jiesuan',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Jiesuan->jiesuan[ E:\PHPStude\WWW\F4\application\index\controller\Jiesuan.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\jiesuan\jiesuan.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:37:04+08:00 ] 127.0.0.1 GET /static/index/fukuan.html
+[ info ] www.lisi.net/static/index/fukuan.html [运行时间：0.043003s][吞吐率：23.25req/s] [内存消耗：1,342.09kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'fukuan',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:43:02+08:00 ] 127.0.0.1 GET /jiesuan
+[ info ] www.lisi.net/jiesuan [运行时间：0.057003s][吞吐率：17.54req/s] [内存消耗：1,745.30kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'jiesuan',
+    2 => 'jiesuan',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Jiesuan->jiesuan[ E:\PHPStude\WWW\F4\application\index\controller\Jiesuan.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\jiesuan\jiesuan.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:43:04+08:00 ] 127.0.0.1 GET /fukuan
+[ info ] www.lisi.net/fukuan [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,604.84kb] [文件加载：43]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'fukuan',
+    2 => 'fukuan',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Fukuan->fukuan[ E:\PHPStude\WWW\F4\application\index\controller\Fukuan.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\Index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:43:39+08:00 ] 127.0.0.1 GET /fukuan
+[ info ] www.lisi.net/fukuan [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：1,741.77kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'fukuan',
+    2 => 'fukuan',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Fukuan->fukuan[ E:\PHPStude\WWW\F4\application\index\controller\Fukuan.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\fukuan\fukuan.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:43:39+08:00 ] 127.0.0.1 GET /css/common.css
+[ info ] www.lisi.net/css/common.css [运行时间：0.067003s][吞吐率：14.92req/s] [内存消耗：1,343.94kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'common.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/fukuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:43:39+08:00 ] 127.0.0.1 GET /css/base.css
+[ info ] www.lisi.net/css/base.css [运行时间：0.075005s][吞吐率：13.33req/s] [内存消耗：1,343.98kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'base.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/fukuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:43:46+08:00 ] 127.0.0.1 GET /jiesuan
+[ info ] www.lisi.net/jiesuan [运行时间：0.046002s][吞吐率：21.74req/s] [内存消耗：1,745.30kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'jiesuan',
+    2 => 'jiesuan',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Jiesuan->jiesuan[ E:\PHPStude\WWW\F4\application\index\controller\Jiesuan.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\jiesuan\jiesuan.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:43:48+08:00 ] 127.0.0.1 GET /home
+[ info ] www.lisi.net/home [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,604.84kb] [文件加载：43]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\PHPStude\WWW\F4\application\index\controller\Index.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\Index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:43:50+08:00 ] 127.0.0.1 GET /shangcheng
+[ info ] www.lisi.net/shangcheng [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,604.95kb] [文件加载：43]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'shangcheng',
+    2 => 'shangcheng',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/home',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Shangcheng->shangcheng[ E:\PHPStude\WWW\F4\application\index\controller\Shangcheng.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\shangcheng\shangcheng.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:43:52+08:00 ] 127.0.0.1 GET /shangpinxq
+[ info ] www.lisi.net/shangpinxq [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,588.91kb] [文件加载：43]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'shangpinxq',
+    2 => 'shangpinxq',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangcheng',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Shangpinxq->shangpinxq[ E:\PHPStude\WWW\F4\application\index\controller\Shangpinxq.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\shangpinxq\shangpinxq.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:43:52+08:00 ] 127.0.0.1 GET /static/index/img/sale_bg.png
+[ info ] www.lisi.net/static/index/img/sale_bg.png [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,343.79kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/static/index/css/common.css',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:43:54+08:00 ] 127.0.0.1 GET /static/index/jiesuan.html
+[ info ] www.lisi.net/static/index/jiesuan.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,344.16kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'jiesuan',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:43:54+08:00 ] 127.0.0.1 GET /jiesuan
+[ info ] www.lisi.net/jiesuan [运行时间：0.061003s][吞吐率：16.39req/s] [内存消耗：1,588.80kb] [文件加载：43]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'jiesuan',
+    2 => 'jiesuan',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/shangpinxq',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Jiesuan->jiesuan[ E:\PHPStude\WWW\F4\application\index\controller\Jiesuan.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\jiesuan\jiesuan.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:43:56+08:00 ] 127.0.0.1 GET /fukuan
+[ info ] www.lisi.net/fukuan [运行时间：0.046002s][吞吐率：21.74req/s] [内存消耗：1,588.68kb] [文件加载：43]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'fukuan',
+    2 => 'fukuan',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Fukuan->fukuan[ E:\PHPStude\WWW\F4\application\index\controller\Fukuan.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\fukuan\fukuan.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:43:56+08:00 ] 127.0.0.1 GET /css/base.css
+[ info ] www.lisi.net/css/base.css [运行时间：0.042003s][吞吐率：23.81req/s] [内存消耗：1,343.70kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'base.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/fukuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:43:56+08:00 ] 127.0.0.1 GET /css/common.css
+[ info ] www.lisi.net/css/common.css [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,343.70kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'css',
+    1 => 'common.css',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/fukuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:44:51+08:00 ] 127.0.0.1 GET /fukuan
+[ info ] www.lisi.net/fukuan [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,742.29kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'fukuan',
+    2 => 'fukuan',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Fukuan->fukuan[ E:\PHPStude\WWW\F4\application\index\controller\Fukuan.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\fukuan\fukuan.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:45:01+08:00 ] 127.0.0.1 GET /fukuan
+[ info ] www.lisi.net/fukuan [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：1,741.20kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'fukuan',
+    2 => 'fukuan',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Fukuan->fukuan[ E:\PHPStude\WWW\F4\application\index\controller\Fukuan.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\fukuan\fukuan.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:46:36+08:00 ] 127.0.0.1 GET /fukuan
+[ info ] www.lisi.net/fukuan [运行时间：0.058003s][吞吐率：17.24req/s] [内存消耗：1,741.20kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'fukuan',
+    2 => 'fukuan',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Fukuan->fukuan[ E:\PHPStude\WWW\F4\application\index\controller\Fukuan.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\fukuan\fukuan.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:47:23+08:00 ] 127.0.0.1 GET /fukuan
+[ info ] www.lisi.net/fukuan [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,741.05kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'fukuan',
+    2 => 'fukuan',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Fukuan->fukuan[ E:\PHPStude\WWW\F4\application\index\controller\Fukuan.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\fukuan\fukuan.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:47:23+08:00 ] 127.0.0.1 GET /img/zfb.jpg
+[ info ] www.lisi.net/img/zfb.jpg [运行时间：0.068004s][吞吐率：14.71req/s] [内存消耗：1,343.64kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => 'zfb.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/fukuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:47:23+08:00 ] 127.0.0.1 GET /img/bank/gh.jpg
+[ info ] www.lisi.net/img/bank/gh.jpg [运行时间：0.064004s][吞吐率：15.62req/s] [内存消耗：1,343.66kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => 'bank',
+    2 => 'gh.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/fukuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:47:23+08:00 ] 127.0.0.1 GET /img/bank/zh.jpg
+[ info ] www.lisi.net/img/bank/zh.jpg [运行时间：0.079004s][吞吐率：12.66req/s] [内存消耗：1,343.66kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'img',
+    1 => 'bank',
+    2 => 'zh.jpg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/fukuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:47:28+08:00 ] 127.0.0.1 GET /fukuan
+[ info ] www.lisi.net/fukuan [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：1,741.20kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'fukuan',
+    2 => 'fukuan',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Fukuan->fukuan[ E:\PHPStude\WWW\F4\application\index\controller\Fukuan.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\fukuan\fukuan.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:47:38+08:00 ] 127.0.0.1 GET /fukuan
+[ info ] www.lisi.net/fukuan [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：1,741.17kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'fukuan',
+    2 => 'fukuan',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Fukuan->fukuan[ E:\PHPStude\WWW\F4\application\index\controller\Fukuan.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\fukuan\fukuan.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:47:43+08:00 ] 127.0.0.1 GET /fukuan
+[ info ] www.lisi.net/fukuan [运行时间：0.045002s][吞吐率：22.22req/s] [内存消耗：1,741.20kb] [文件加载：45]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'fukuan',
+    2 => 'fukuan',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/jiesuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Fukuan->fukuan[ E:\PHPStude\WWW\F4\application\index\controller\Fukuan.php ]
+[ info ] [ VIEW ] E:\PHPStude\WWW\F4\public/../application/index\view\fukuan\fukuan.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T21:52:45+08:00 ] 127.0.0.1 GET /grxx.php
+[ info ] www.lisi.net/grxx.php [运行时间：0.042002s][吞吐率：23.81req/s] [内存消耗：1,344.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'grxx.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/fukuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T22:04:01+08:00 ] 127.0.0.1 GET /grxx.php
+[ info ] www.lisi.net/grxx.php [运行时间：2.171124s][吞吐率：0.46req/s] [内存消耗：1,344.10kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'grxx.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/fukuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T22:04:06+08:00 ] 127.0.0.1 GET /grxx.php
+[ info ] www.lisi.net/grxx.php [运行时间：0.050002s][吞吐率：20.00req/s] [内存消耗：1,344.11kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'grxx.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/fukuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-05T22:04:06+08:00 ] 127.0.0.1 GET /grxx.php
+[ info ] www.lisi.net/grxx.php [运行时间：0.043002s][吞吐率：23.25req/s] [内存消耗：1,344.10kb] [文件加载：38]
+[ info ] [ LANG ] E:\PHPStude\WWW\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'grxx.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.lisi.net',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:53.0) Gecko/20100101 Firefox/53.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.lisi.net/fukuan',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528078004,1528192739; thinkphp_show_page_trace=0|0; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528203002',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

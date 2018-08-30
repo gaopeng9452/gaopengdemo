@@ -1,0 +1,54 @@
+<?php
+namespace app\admin\controller;
+session_start();
+use think\Controller;
+use think\Db;
+
+class Index extends controller{
+
+	public function index(){
+		return view();
+	}
+
+	public function login(){
+		return view();
+	}	
+	public function dologin(){
+		$a=input('post.');
+		echo "<pre>";
+		// var_dump($a);
+		$arr=Db::table('rule')->where('username',$a['username'])->select();
+		// var_dump($arr);
+		if($a['pass']==$arr[0]['pass'])
+			if ($a['code']==$_SESSION['session_code']) {
+				echo"登陆成功!";
+			}
+		}
+	public function welcome(){
+		
+		$this->assign("last",$_SERVER['REMOTE_ADDR']);
+		$this->assign("cname",$_SERVER['SERVER_ADDR']);
+		$this->assign("ip",$_SERVER['REMOTE_ADDR']);
+		$this->assign("yuming",$_SERVER['SERVER_NAME']);
+		$this->assign("duankou",$_SERVER['SERVER_PORT']);
+		$this->assign("IIS",$_SERVER['SERVER_SIGNATURE']);
+		$this->assign("FILE",substr(__FILE__,0,-11));
+		$this->assign("os",PHP_OS);
+		$this->assign("SystemRoot",$_SERVER['SystemRoot']);
+		$this->assign("max_execution_time",get_cfg_var("max_execution_time"));
+		$this->assign("HTTP_ACCEPT_LANGUAGE",$_SERVER['HTTP_ACCEPT_LANGUAGE']);
+		$this->assign("date",date("Y-m-d l H:i:s A"));
+		$this->assign("IE",strtolower($_SERVER["HTTP_USER_AGENT"]));
+		$this->assign("sapi",php_sapi_name());
+		$this->assign("round",round((disk_free_space(".")/(1024*1024)),2).'M');
+		$this->assign("memory",(memory_get_usage()/1024)."Kb");
+		
+		$this->assign("session",session_id());
+		$this->assign("getenv",getenv("username"));
+		
+		
+
+		return view();
+	}
+
+}

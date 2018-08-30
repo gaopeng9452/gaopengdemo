@@ -1,0 +1,89 @@
+<?php
+namespace app\admin\controller;
+use think\Controller;
+use think\Request;
+use think\Db;
+class Admin extends Controller{
+
+
+	public function admin_add(){
+		return view();
+	}
+
+
+	public function admin_cate(){
+		return view();
+	}
+
+
+	public function admin_doadd(){
+		$time=date("Y-m-d H:i:s",time());
+		$a=Request::instance()->post(); 
+		unset($a['repass']);
+		$a['addtime']=$time;
+		// var_dump($a);
+    	$m=db("rule")->insert($a);
+    	// var_dump($m);
+    	if($m>0){
+    		echo"添加成功";
+    	}else{
+    		echo"添加失败";
+    	}
+	}
+
+
+	public function admin_edit($id){
+		 $rule=db("rule")->find($id);
+         // echo"<pre>";
+         // var_dump($stu);
+    	 $this->assign("rule",$rule);
+    	 return $this->fetch();
+
+		var_dump($id);
+
+		return view();
+	}
+
+
+
+	public function admin_list(){
+		$list=db("rule")->select();
+		$this->assign("list",$list);
+		return view();
+	}
+	public function admin_update()
+    {
+        //接收数组
+        $s=input('post.');
+        // var_dump($s);
+        // die();
+        $m=db("rule")->update($s);
+        return $m;
+    }
+
+
+	public function admin_role(){
+		return view();
+	}
+
+
+	public function admin_rule(){
+		return view();
+	}
+
+
+	public function role_add(){
+		return view();
+	}
+
+
+	public function role_edit(){
+		return view();
+	}
+
+
+	public function cate_edit(){
+		return view();
+	}
+
+}

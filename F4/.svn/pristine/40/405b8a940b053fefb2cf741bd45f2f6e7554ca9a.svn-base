@@ -1,0 +1,519 @@
+---------------------------------------------------------------
+[ 2018-06-07T21:04:34+08:00 ] 127.0.0.1 POST /admin/admin/admin_update.html
+[ info ] www.f4.com/admin/admin/admin_update.html [运行时间：0.144584s][吞吐率：6.92req/s] [内存消耗：2,861.49kb] [文件加载：53]
+[ info ] [ LANG ] C:\wamp\www\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin_update',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.f4.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f4.com/admin/admin/admin_edit/id/19.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '80',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528203003,1528283712,1528355256,1528369478; PHPSESSID=27t0e3kubuo6tlmc60ga20ipq4; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528376672',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '19',
+  'username' => '123546563',
+  'phone' => '12345678912',
+  'email' => '123@qq.com',
+  'role' => '1',
+  'pass' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->admin_update[ C:\wamp\www\F4\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003223s ] mysql:host=192.168.14.57;port=3306;dbname=f4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rule` [ RunTime:0.013997s ]
+[ sql ] [ SQL ] UPDATE `rule`  SET `username`='123546563',`phone`='12345678912',`email`='123@qq.com',`role`='1',`pass`='123456'  WHERE  `id` = 19 [ RunTime:0.003772s ]
+---------------------------------------------------------------
+[ 2018-06-07T21:04:36+08:00 ] 127.0.0.1 POST /admin/admin/admin_update.html
+[ info ] www.f4.com/admin/admin/admin_update.html [运行时间：0.141453s][吞吐率：7.07req/s] [内存消耗：2,861.39kb] [文件加载：53]
+[ info ] [ LANG ] C:\wamp\www\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin_update',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.f4.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f4.com/admin/admin/admin_edit/id/19.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '80',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528203003,1528283712,1528355256,1528369478; PHPSESSID=27t0e3kubuo6tlmc60ga20ipq4; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528376672',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '19',
+  'username' => '123546563',
+  'phone' => '12345678912',
+  'email' => '123@qq.com',
+  'role' => '1',
+  'pass' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->admin_update[ C:\wamp\www\F4\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005156s ] mysql:host=192.168.14.57;port=3306;dbname=f4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rule` [ RunTime:0.016901s ]
+[ sql ] [ SQL ] UPDATE `rule`  SET `username`='123546563',`phone`='12345678912',`email`='123@qq.com',`role`='1',`pass`='123456'  WHERE  `id` = 19 [ RunTime:0.010311s ]
+---------------------------------------------------------------
+[ 2018-06-07T21:04:41+08:00 ] 127.0.0.1 POST /admin/admin/admin_update.html
+[ info ] www.f4.com/admin/admin/admin_update.html [运行时间：0.180000s][吞吐率：5.56req/s] [内存消耗：2,861.44kb] [文件加载：53]
+[ info ] [ LANG ] C:\wamp\www\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin_update',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.f4.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f4.com/admin/admin/admin_edit/id/19.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '81',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528203003,1528283712,1528355256,1528369478; PHPSESSID=27t0e3kubuo6tlmc60ga20ipq4; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528376672',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '19',
+  'username' => '1235465633',
+  'phone' => '12345678912',
+  'email' => '123@qq.com',
+  'role' => '1',
+  'pass' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->admin_update[ C:\wamp\www\F4\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003512s ] mysql:host=192.168.14.57;port=3306;dbname=f4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rule` [ RunTime:0.015514s ]
+[ sql ] [ SQL ] UPDATE `rule`  SET `username`='1235465633',`phone`='12345678912',`email`='123@qq.com',`role`='1',`pass`='123456'  WHERE  `id` = 19 [ RunTime:0.061706s ]
+---------------------------------------------------------------
+[ 2018-06-07T21:04:45+08:00 ] 127.0.0.1 GET /admin/admin/admin_list.html
+[ info ] www.f4.com/admin/admin/admin_list.html [运行时间：0.161074s][吞吐率：6.21req/s] [内存消耗：2,845.30kb] [文件加载：52]
+[ info ] [ LANG ] C:\wamp\www\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'admin_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.f4.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f4.com/admin/admin/admin_list.html',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528203003,1528283712,1528355256,1528369478; PHPSESSID=27t0e3kubuo6tlmc60ga20ipq4; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528376672',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->admin_list[ C:\wamp\www\F4\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\F4\public/../application/admin\view\admin\admin_list.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014003s ] mysql:host=192.168.14.57;port=3306;dbname=f4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `rule` [ RunTime:0.016712s ]
+[ sql ] [ SQL ] SELECT * FROM `rule` [ RunTime:0.005647s ]
+---------------------------------------------------------------
+[ 2018-06-07T21:11:18+08:00 ] 127.0.0.1 GET /admin/banner/banner_list.html
+[ info ] www.f4.com/admin/banner/banner_list.html [运行时间：0.200870s][吞吐率：4.98req/s] [内存消耗：3,022.58kb] [文件加载：54]
+[ info ] [ LANG ] C:\wamp\www\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'banner_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.f4.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f4.com/admin/',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528203003,1528283712,1528355256,1528369478; PHPSESSID=27t0e3kubuo6tlmc60ga20ipq4; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528376685',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Banner->banner_list[ C:\wamp\www\F4\application\admin\controller\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\F4\public/../application/admin\view\banner\banner_list.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003504s ] mysql:host=192.168.14.57;port=3306;dbname=f4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.013108s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` [ RunTime:0.001849s ]
+---------------------------------------------------------------
+[ 2018-06-07T21:11:36+08:00 ] 127.0.0.1 POST /admin/banner/bannerstart.html
+[ info ] www.f4.com/admin/banner/bannerstart.html [运行时间：0.156114s][吞吐率：6.41req/s] [内存消耗：2,863.33kb] [文件加载：53]
+[ info ] [ LANG ] C:\wamp\www\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'bannerstart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.f4.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f4.com/admin/banner/banner_list.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '5',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528203003,1528283712,1528355256,1528369478; PHPSESSID=27t0e3kubuo6tlmc60ga20ipq4; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528377079',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '18',
+)
+[ info ] [ RUN ] app\admin\controller\Banner->bannerstart[ C:\wamp\www\F4\application\admin\controller\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004527s ] mysql:host=192.168.14.57;port=3306;dbname=f4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.012378s ]
+[ sql ] [ SQL ] UPDATE `banner`  SET `state`='1'  WHERE  `id` = 18 [ RunTime:0.001657s ]
+---------------------------------------------------------------
+[ 2018-06-07T21:11:38+08:00 ] 127.0.0.1 GET /admin/banner/banner_list.html
+[ info ] www.f4.com/admin/banner/banner_list.html [运行时间：0.128428s][吞吐率：7.79req/s] [内存消耗：2,846.09kb] [文件加载：52]
+[ info ] [ LANG ] C:\wamp\www\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'banner_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.f4.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f4.com/admin/banner/banner_list.html',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528203003,1528283712,1528355256,1528369478; PHPSESSID=27t0e3kubuo6tlmc60ga20ipq4; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528377079',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Banner->banner_list[ C:\wamp\www\F4\application\admin\controller\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\F4\public/../application/admin\view\banner\banner_list.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003801s ] mysql:host=192.168.14.57;port=3306;dbname=f4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.015502s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` [ RunTime:0.003181s ]
+---------------------------------------------------------------
+[ 2018-06-07T21:11:42+08:00 ] 127.0.0.1 POST /admin/banner/bannerstop.html
+[ info ] www.f4.com/admin/banner/bannerstop.html [运行时间：0.161059s][吞吐率：6.21req/s] [内存消耗：2,863.45kb] [文件加载：53]
+[ info ] [ LANG ] C:\wamp\www\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'bannerstop',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.f4.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f4.com/admin/banner/banner_list.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '5',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528203003,1528283712,1528355256,1528369478; PHPSESSID=27t0e3kubuo6tlmc60ga20ipq4; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528377099',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '18',
+)
+[ info ] [ RUN ] app\admin\controller\Banner->bannerstop[ C:\wamp\www\F4\application\admin\controller\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.031629s ] mysql:host=192.168.14.57;port=3306;dbname=f4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.015680s ]
+[ sql ] [ SQL ] UPDATE `banner`  SET `state`='2'  WHERE  `id` = 18 [ RunTime:0.004167s ]
+---------------------------------------------------------------
+[ 2018-06-07T21:11:44+08:00 ] 127.0.0.1 GET /admin/banner/banner_list.html
+[ info ] www.f4.com/admin/banner/banner_list.html [运行时间：0.132667s][吞吐率：7.54req/s] [内存消耗：2,846.09kb] [文件加载：52]
+[ info ] [ LANG ] C:\wamp\www\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'banner_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.f4.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f4.com/admin/banner/banner_list.html',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528203003,1528283712,1528355256,1528369478; PHPSESSID=27t0e3kubuo6tlmc60ga20ipq4; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528377099',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Banner->banner_list[ C:\wamp\www\F4\application\admin\controller\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\F4\public/../application/admin\view\banner\banner_list.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008194s ] mysql:host=192.168.14.57;port=3306;dbname=f4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.014610s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` [ RunTime:0.002873s ]
+---------------------------------------------------------------
+[ 2018-06-07T21:11:51+08:00 ] 127.0.0.1 GET /admin/
+[ info ] www.f4.com/admin/ [运行时间：0.086506s][吞吐率：11.56req/s] [内存消耗：1,965.48kb] [文件加载：45]
+[ info ] [ LANG ] C:\wamp\www\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.f4.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528203003,1528283712,1528355256,1528369478; PHPSESSID=27t0e3kubuo6tlmc60ga20ipq4; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528377105',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ C:\wamp\www\F4\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp\www\F4\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T21:11:53+08:00 ] 127.0.0.1 GET /admin/index/welcome.html
+[ info ] www.f4.com/admin/index/welcome.html [运行时间：0.115958s][吞吐率：8.62req/s] [内存消耗：1,896.22kb] [文件加载：44]
+[ info ] [ LANG ] C:\wamp\www\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.f4.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f4.com/admin/',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528203003,1528283712,1528355256,1528369478; PHPSESSID=27t0e3kubuo6tlmc60ga20ipq4; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528377105',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ C:\wamp\www\F4\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] C:\wamp\www\F4\public/../application/admin\view\index\welcome.html [ array (
+  0 => 'last',
+  1 => 'cname',
+  2 => 'ip',
+  3 => 'yuming',
+  4 => 'duankou',
+  5 => 'IIS',
+  6 => 'FILE',
+  7 => 'os',
+  8 => 'SystemRoot',
+  9 => 'max_execution_time',
+  10 => 'HTTP_ACCEPT_LANGUAGE',
+  11 => 'date',
+  12 => 'IE',
+  13 => 'sapi',
+  14 => 'round',
+  15 => 'memory',
+  16 => 'session',
+  17 => 'getenv',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-07T21:11:56+08:00 ] 127.0.0.1 GET /admin/banner/banner_list.html
+[ info ] www.f4.com/admin/banner/banner_list.html [运行时间：0.145474s][吞吐率：6.87req/s] [内存消耗：2,846.05kb] [文件加载：52]
+[ info ] [ LANG ] C:\wamp\www\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'banner_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.f4.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f4.com/admin/',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528203003,1528283712,1528355256,1528369478; PHPSESSID=27t0e3kubuo6tlmc60ga20ipq4; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528377115',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Banner->banner_list[ C:\wamp\www\F4\application\admin\controller\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\F4\public/../application/admin\view\banner\banner_list.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004226s ] mysql:host=192.168.14.57;port=3306;dbname=f4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.011621s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` [ RunTime:0.002997s ]
+---------------------------------------------------------------
+[ 2018-06-07T21:12:00+08:00 ] 127.0.0.1 POST /admin/banner/bannerstart.html
+[ info ] www.f4.com/admin/banner/bannerstart.html [运行时间：0.140142s][吞吐率：7.14req/s] [内存消耗：2,863.33kb] [文件加载：53]
+[ info ] [ LANG ] C:\wamp\www\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'bannerstart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.f4.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html, */*; q=0.01',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f4.com/admin/banner/banner_list.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '5',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528203003,1528283712,1528355256,1528369478; PHPSESSID=27t0e3kubuo6tlmc60ga20ipq4; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528377117',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '18',
+)
+[ info ] [ RUN ] app\admin\controller\Banner->bannerstart[ C:\wamp\www\F4\application\admin\controller\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004805s ] mysql:host=192.168.14.57;port=3306;dbname=f4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.014171s ]
+[ sql ] [ SQL ] UPDATE `banner`  SET `state`='1'  WHERE  `id` = 18 [ RunTime:0.002924s ]
+---------------------------------------------------------------
+[ 2018-06-07T21:12:01+08:00 ] 127.0.0.1 GET /admin/banner/banner_list.html
+[ info ] www.f4.com/admin/banner/banner_list.html [运行时间：0.126336s][吞吐率：7.92req/s] [内存消耗：2,846.09kb] [文件加载：52]
+[ info ] [ LANG ] C:\wamp\www\F4\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'banner',
+    2 => 'banner_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.f4.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.f4.com/admin/banner/banner_list.html',
+  'cookie' => 'Hm_lvt_b393d153aeb26b46e9431fabaf0f6190=1528203003,1528283712,1528355256,1528369478; PHPSESSID=27t0e3kubuo6tlmc60ga20ipq4; Hm_lpvt_b393d153aeb26b46e9431fabaf0f6190=1528377117',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Banner->banner_list[ C:\wamp\www\F4\application\admin\controller\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp\www\F4\public/../application/admin\view\banner\banner_list.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006822s ] mysql:host=192.168.14.57;port=3306;dbname=f4;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `banner` [ RunTime:0.018787s ]
+[ sql ] [ SQL ] SELECT * FROM `banner` [ RunTime:0.002624s ]

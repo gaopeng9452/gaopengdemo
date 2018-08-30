@@ -1,0 +1,11 @@
+<?php
+namespace app\index\controller;
+use think\Controller;
+use think\Db;
+class Shangcheng extends Controller
+{
+    public function shangcheng()
+    {
+        return $this->fetch();
+    }
+}

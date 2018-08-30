@@ -1,0 +1,75 @@
+<?php
+session_start();  //开启会话控制
+// 验证码
+//1,初始化验证码信息
+$length= 4;
+$code = getCode($length,1);
+//将随机出来的验证码值以session_code名存放到session中
+$_SESSION['session_code'] =$code;
+$width = $length*42;
+$height = 52;
+ //2, 准备画布,颜色
+  $im   = imagecreatetruecolor($width,$height);
+  $bg[0]   = imagecolorallocate($im,220,220,220);
+  $bg[1]  = imagecolorallocate($im,225,0,0);
+  $bg[2] = imagecolorallocate($im,0,0,225);
+
+  //定义几个验证码值的颜色  
+  $c[0] = imagecolorallocate($im,255,0,0);  
+  $c[1] = imagecolorallocate($im,0,0,255);  
+  $c[2] = imagecolorallocate($im,81,145,83);  
+  $c[3] = imagecolorallocate($im,160,44,146);  
+  $c[4] = imagecolorallocate($im,49,158,162);
+//2, 开始绘画
+
+//   背景填充
+//   $im :画布  0:x轴  0:y轴  $bg: 填充的背景颜色
+  imagefill($im,0,0,$bg[rand(0,2)]); 
+  //绘制验证码
+  for($i =0;$i<$length;$i++){
+     imagettftext($im,20,rand(-30,30),2+($i*20),25,$c[rand(0,4)],"msyh.ttf",$code[$i]);
+  }
+
+  //随机干扰线
+  for($i= 0;$i<5;$i++){
+    $cc = imagecolorallocate($im,rand(0,255),rand(0,255),rand(0,255));
+    imageline($im,rand(0,$width),rand(0,$height),rand(0,$width),rand(0,$height),$cc);
+  } 
+
+  //随机干扰点
+  for($i= 0;$i<200;$i++){
+    $cc = imagecolorallocate($im,rand(0,255),rand(0,255),rand(0,255));
+    imagesetpixel($im,rand(0,$width),rand(0,$height),$cc);
+  } 
+
+ //3, 输出图画
+  header("content-type:image/png");
+  imagepng($im);
+ //4, 销毁资源
+   imagedestroy($im);
+
+/**
+*定义一个函数获取随机的验证码值
+*@param int $length 随机验证码的长度,默认为4个1
+*@param int $type  验证码类型1:纯数字2:数字加小写字母3:数字加大小写字母 默认为1
+*@return string 返回随机的验证码值
+*/
+
+function getCode($length=4,$type=1){
+  $str="0123456789abcdefghijkmnpqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  //判断type确定随机的类型
+  if($type ==1 ){
+      $len = 9;     //定义随机数字的长度
+  }elseif($type == 2){
+      $len = 33;    //定义随机数字加小写字母的长度
+  }else{
+      $len =strlen($str)-1;   //定义随机验证码的长度
+  }
+ 
+ $code= "";
+ for($i=0;$i<$length;$i++){
+    $code.= $str[rand(0,$len)];
+ }  
+ //返回验证码的值
+ return $code;
+}

@@ -1,0 +1,11 @@
+<?php
+namespace app\index\controller;
+use think\Controller;
+use think\Db;
+class Shangpinxq extends Controller
+{
+    public function shangpinxq()
+    {
+        return $this->fetch();
+    }
+}
